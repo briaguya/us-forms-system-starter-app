@@ -36,7 +36,8 @@ const formConfig = {
                         "Other"
                       ]
                     },
-                    otherThing: { type: "string" }
+                    otherThing: { type: "string" },
+                    unrelatedThing: { type: "string" }
                   }
                 }
               }
