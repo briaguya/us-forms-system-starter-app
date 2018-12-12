@@ -47,6 +47,14 @@ const formConfig = {
               "ui:options": {
                 viewField: PlaceholderDisplayWidget,
                 addable: true
+              },
+              items: {
+                otherThing: {
+                  "ui:options": {
+                    expandUnder: "thing",
+                    expandUnderCondition: "other"
+                  }
+                }
               }
             }
           }
